@@ -1,9 +1,9 @@
-name = "statcan-geography"
+name = "dataforcanada-labs-statcan-geography"
 main = "src/index.js"
 compatibility_date = "2025-04-02"
 workers_dev = true
 routes = [
-  { pattern = "statcan-geography.dataforcanada.org", custom_domain = true }
+  { pattern = "statcan-geography.labs.dataforcanada.org", custom_domain = true }
 ]
 
 [assets]
